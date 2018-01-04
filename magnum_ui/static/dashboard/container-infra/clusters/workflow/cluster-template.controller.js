@@ -44,7 +44,6 @@
         id: "",
         coe: "",
         image_id: "",
-        public: "",
         registry_enabled: "",
         tls_disabled: "",
         apiserver_port: "",
