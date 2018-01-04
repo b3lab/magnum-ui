@@ -67,8 +67,7 @@
           ? response.data.name : "";
         config.model.coe = response.data.coe
           ? response.data.coe : "";
-        config.model.public = response.data.public
-          ? response.data.public : false;
+        config.model.public = false;
         config.model.registry_enabled = response.data.registry_enabled
           ? response.data.registry_enabled : false;
         config.model.tls_disabled = response.data.tls_disabled

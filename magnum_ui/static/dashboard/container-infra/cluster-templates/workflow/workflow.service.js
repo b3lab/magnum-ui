@@ -83,10 +83,6 @@
             title: gettext('Container Orchestration Engine'),
             type: 'string'
           },
-          'public': {
-            title: gettext('Public'),
-            type: 'boolean'
-          },
           'registry_enabled': {
             title: gettext('Enable Registry'),
             type: 'boolean'
@@ -253,9 +249,6 @@
                             supportedVolumeDrivers.initial[0].value;
                         }
                       }
-                    },
-                    {
-                      key: 'public'
                     },
                     {
                       key: 'registry_enabled'
@@ -468,7 +461,6 @@
       model = {
         name: "",
         coe: "",
-        public: "",
         registry_enabled: "",
         tls_disabled: "",
         image_id: "",
